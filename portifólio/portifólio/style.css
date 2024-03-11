@@ -1,0 +1,164 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: aqua;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.cna{
+    background-image: url(imagens/universo-color-1068x619.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    background-position-y: -450px;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    color: white; 
+}
+
+.cna-txt{
+    padding-top: 100px;
+}
+
+.nome{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.links{
+    font-size: 15px;
+    display: flex;
+}
+
+.inferior{
+    background-color: rgb(12, 12, 12);
+}
+
+.assuntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.quimica{
+    background-image: url(imagens/light-bulb-3413279_1280.jpg);
+    height: 400px;
+    width: 370px;
+    margin-top: 30px;
+    background-size: 200%;
+    background-position-x: 45%;
+}
+
+.bio{
+    background-image: url(imagens/leaf-plant-nature-environment-approach-freshness-open-air-grass-ecology.jpg);
+    height: 400px;
+    width: 370px;
+    margin-top: 30px;
+    background-size: 180%;
+    background-position-y: 20%;
+    background-position-x: 50%;
+}
+
+.fisica{
+    background-image: url(imagens/impacto-1300x731.jpg);
+    height: 400px;
+    width: 370px;
+    margin-top: 30px;
+    background-size: 100%;
+    background-position-x: 30%;
+    background-position-y: 60%;
+}
+
+
+.nomes-assuntos{
+    display: flex;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.div-assunto{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.professores{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.professores-texto{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.att-desc{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+    color: white;
+    margin-top: 30px;
+}
+
+.placeholder-att-desc{
+    width: 700px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.desc{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.desc p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.som-att{
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.placeholder-som-att{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+
